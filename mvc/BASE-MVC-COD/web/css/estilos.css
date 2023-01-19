@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+    font-family: poppins;
+}
+
+table,
+td,
+th {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-image: linear-gradient(to right, rgb(186, 245, 212), rgb(199, 187, 214));
+    color: #fff;
+}
+
+tr:nth-of-type(even) {
+    background-color: rgb(212, 253, 253);
+}
+
+th {
+    padding: 10px;
+}
